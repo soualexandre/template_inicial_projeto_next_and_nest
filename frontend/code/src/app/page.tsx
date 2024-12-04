@@ -73,7 +73,7 @@ export default function Home() {
 
             <div className="mt-6 py-4 border-t border-gray-200">
               <Link
-                href="/projetos"
+                href="https://eualexandre.vercel.app/"
                 className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-2 rounded-full hover:opacity-90 transition-opacity"
               >
                 Ver Projetos
@@ -116,7 +116,7 @@ export default function Home() {
 
             <div className="mt-6">
               <Link
-                href="#"
+                href="https://github.com/soualexandre/template_inicial_projeto_next_and_nest"
                 className="bg-gradient-to-r from-green-500 to-teal-600 text-white px-6 py-2 rounded-full hover:opacity-90 transition-opacity"
               >
                 Git do projeto
