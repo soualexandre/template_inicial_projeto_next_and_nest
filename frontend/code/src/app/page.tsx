@@ -15,7 +15,6 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center p-4">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-        {/* Perfil Card */}
         <div className="bg-white shadow-2xl rounded-xl overflow-hidden">
           <div className="bg-gradient-to-r from-blue-500 to-purple-600 h-36 relative">
             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2">
@@ -36,7 +35,7 @@ export default function Home() {
             <h1 className="text-2xl font-bold text-gray-800">
               Alexandre Souza dos Santos
             </h1>
-            <p className="text-gray-600 mt-2">Desenvolvedor Web</p>
+            <p className="text-gray-600 mt-2">Desenvolvedor Full Stack</p>
 
             <div className="mt-6 px-6">
               <div className="flex justify-center space-x-4 mb-6">
@@ -83,10 +82,9 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Projeto Next.js Description */}
         <div className="bg-white shadow-2xl rounded-xl p-6">
           <h2 className="text-2xl font-bold mb-4 text-gray-800">
-            Template Next.js com Docker
+            Template Next.js, Tailwind, Nest.js, Docker, Makefile.
           </h2>
 
           <div className="space-y-4">

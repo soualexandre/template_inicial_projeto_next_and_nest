@@ -16,6 +16,6 @@ RUN yarn
 
 COPY code/ ./code/
 
-EXPOSE 3000
+EXPOSE 3070
 
 CMD ["yarn", "dev", "--", "-p", "3070"]

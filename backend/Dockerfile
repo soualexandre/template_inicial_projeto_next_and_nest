@@ -8,10 +8,16 @@ RUN apk add --no-cache \
     make \
     g++
 
-RUN npm install -g @nestjs/cli --quiet
+RUN yarn global add @nestjs/cli
 
-USER node
+COPY code/package.json ./ 
+COPY code/tsconfig.json ./ 
+COPY code/nest-cli.json ./
+
+RUN yarn
+
+COPY code/ ./
 
 EXPOSE 3080
 
-CMD ["/bin/sh"]
+CMD ["nest", "start", "--watch", "--port", "3080"]
